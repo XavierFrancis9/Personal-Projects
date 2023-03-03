@@ -9,5 +9,15 @@ myButton.addEventListener('click', () => {
     let randomElement = phrase[randomIndex];
     let output = document.getElementById('output');
 
+    let transbox = document.getElementById('transbox');
+
+    transbox.style.margin = '90px';
+    transbox.style['background-color'] = '#fff';
+    transbox.style.border = 'none';
+    transbox.style.padding = '5px';
+    transbox.style.opacity = '0.6';
+    transbox.style['border-radius'] = '15px';
+
     output.innerHTML = randomElement;
 });
+
