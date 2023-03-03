@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Vulfpeck Daily</title>
+	<style>
+		body {
+			text-align: center;
+			color: black;
+	/*		background-color: lightgray;
+			background-image: url(https://img.freepik.com/free-vector/groovy-psychedelic-colorful-background_23-2149075813.jpg?w=2000&t=st=1676580232~exp=1676580832~hmac=346fc139431e20264b6ef898acc9ca3f3aa5619c9a20d573706027b01732f1db);*/
+		}
+		h1 {
+			font-size: 56px;
+			font-family: 'EB Garamond', serif;
+		}
+		div {
+			font-size: 96px;
+			text-align: center;
+		}
+		/*div.transbox {
+			margin: 90px;
+			background-color: #ffffff;
+			border: 1px solid black;
+			opacity: 0.6;
+		}*/
+		div.container {
+			background-image: url("https://i.scdn.co/image/ab67616d0000b27312dd7dcec66b6d230a719a5e");
+		}
+	</style>
+	</head>
+	<body>
+		<h1>Vulfpeck Song of the Day</h1>
+		<p>Slap the button below to generate some Vulfpeck funk!</p>
+		<button id="myButton">Gimmie that FUNK!</button>
+		<div class="transbox">
+  			<p id="output" ></p>
+  		</div>
+  		<div class ="container">
+  		</div>
+  
+	  		<script>
+
+	  			let song = ["Miracle", "Romanian Drinking Song", "Wait for the Moment", "Animal Spirits"];
+				let randomIndex = Math.floor(Math.random() * song.length);
+				let randomElement = song[randomIndex];
+	    		myButton.addEventListener("click",() => {
+	    			output.textContent = randomElement;
+	    		});
+	    		myButton.addEventListener("click",() => {
+	    			albumArt.imageContent = albumCover;
+	    		});
+
+	  		</script>
+
+
+
+	</body>
+</html>

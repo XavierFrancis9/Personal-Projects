@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Daily Wisdom</title>
+		<link rel="stylesheet" type="text/css" href="daily-wisdom.css" />
+	</head>
+
+	<body>
+		<h1>Daily Wisdom</h1>
+		<p>Press the button to generate your wisdom for the day</p>
+		<button id="myButton">Give Me Wisdom</button>
+		<div class="transbox">
+		<p id="output"></p>
+		</div>
+
+		<script>
+			var phrase = ["\"If it ain't on Github, it doesn't exist.\" - Jordy Muniz", "\"Hardwork beats talent, when talent doesn't work hard.\" - Unknown", "\"Speak softly and carry a big stick.\" - Franklin D. Roosevelt", "\"You don't choose a life, you live one.\" - Unknown"];
+			var randomIndex = Math.floor(Math.random() * phrase.length);
+			var randomElement = phrase[randomIndex];
+
+			myButton.addEventListener("click", () => {
+				output.textContent = randomElement;
+			});
+		</script>
+
+	</body>
+</html>
