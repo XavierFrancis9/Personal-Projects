@@ -6,30 +6,34 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New Account Registration</title>
+    <link rel="stylesheet" href="css/user-form.css">
 </head>
 <body>
-    <form action="https://request-inspector.glitch.me" method="POST">
+    <div id="userForm">
+        <form action="https://request-inspector.glitch.me" method="POST">
 
-        <label for="firstName">First Name:</label>
-        <input type="text" name="firstName" id="firstName">
-        <br>
-        <label for="lastName">Last Name:</label>
-        <input type="text" name="lastName" id="lastName">
-        <br>
-        <label for="email">Email:</label>
-        <input type="text" name="email" id="email">
-        <br>
-        <label for="username">Username</label>
-        <input type="text" name="username" id="username">
-        <br>
-        <label for="password">Password</label>
-        <input type="text" name="password" id="password">
-        <br>
-        <label for="emailSignUp">Sign me up for Daily Wisdom emails!</label>
-        <input type="checkbox" name="emailSignup" id="emailSignUp" checked>
-        <br>
-        <input type="submit">
-    </form>
+            <h2>New User Registration</h2>
 
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" id="firstName">
+            <br><br>
+            <label for="lastName">Last Name: </label>
+            <input type="text" name="lastName" id="lastName">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+            <br><br>
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username">
+            <br><br>
+            <label for="password">Password: </label>
+            <input type="text" name="password" id="password">
+            <br><br>
+            <label for="emailSignUp">Sign me up for Daily Wisdom emails!</label>
+            <input type="checkbox" name="emailSignup" id="emailSignUp" checked>
+            <br><br>
+            <input type="submit">
+        </form>
+    </div>
 </body>
 </html>
