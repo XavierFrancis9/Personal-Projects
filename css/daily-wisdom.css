@@ -10,18 +10,39 @@ body {
 }
 #header{
     background-color: black;
-    width: 100%;
+    padding: 10px;
+
+}
+.topNav {
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
     margin: 0;
-    padding: 0;
+}
+
+li:nth-of-type(3) {
+    margin-left: auto;
+}
+
+li:nth-of-type(4) {
+    margin-left: auto;
+}
+
+li {
+    list-style: none;
 }
 
 a {
-
+    margin: 10px;
+}
+a:hover {
+    cursor: pointer;
 }
 
 h1 {
     font-size: 56px;
     color: lightslategray;
+    padding: 0 10px 10px 10px;
 }
 
 div {

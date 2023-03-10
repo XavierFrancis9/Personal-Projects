@@ -1,8 +1,13 @@
 body {
     background-color: white;
     background-image: url("img/correct-night-sky.jpg");
+    font-family: fantasy;
 }
 
+/*h2 {*/
+/*    background-color: gray;*/
+/*    border-radius: 15px;*/
+/*}*/
 
 form {
     background-color: #BEBEBE;
@@ -12,6 +17,7 @@ form {
     margin: 8% auto;
     font-size: 20px;
     border-radius: 15px;
+    font-family: fantasy;
 
 }
 
@@ -23,4 +29,15 @@ form {
 
 input {
     font-size: 20px;
+}
+
+#button {
+    font-family: fantasy;
+    padding: 5px 20px;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+#button:hover {
+    cursor: pointer;
 }

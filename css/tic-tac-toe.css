@@ -1,0 +1,58 @@
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: dimgray;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px
+}
+
+.board {
+    text-align: center;
+    background-color: black;
+    height: 595px;
+    width: 595px;
+    margin:  auto;
+    border: solid 5px black;
+}
+
+section {
+    background-color: black;
+    height: 195px;
+    width: 595px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.square {
+    background-color: white;
+    height: 195px;
+    width: 195px;
+    display: flex;
+}
+
+.square:nth-of-type(1) {
+    margin-right: 5px;
+}
+
+.square:nth-of-type(3) {
+    margin-left: 5px;
+}
+
+.button {
+    border: none;
+    height: 195px;
+    width: 195px;
+
+}
+.button:hover {
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
