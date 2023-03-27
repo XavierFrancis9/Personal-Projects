@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sections {
+    padding: 15px;
+    margin: 0 15px;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
